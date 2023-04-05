@@ -1,0 +1,12 @@
+export { default as iphone_1 } from "./iphone 1.webp";
+export { default as iphone_2 } from "./iphone 1.webp";
+export { default as iphone_3 } from "./iphone 1.webp";
+export { default as iphone_4 } from "./iphone 1.webp";
+export { default as ps1 } from "./ps 1.webp";
+export { default as ps2 } from "./ps 2.webp";
+export { default as sam1 } from "./sam 1.webp";
+export { default as sam2 } from "./sam 2.webp";
+export { default as sam3 } from "./sam 3.webp";
+export { default as shi1 } from "./shi 1.webp";
+export { default as shi2 } from "./shi 2.webp";
+export { default as xbox1 } from "./xbox 1.webp";

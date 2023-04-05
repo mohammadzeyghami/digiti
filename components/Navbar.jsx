@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="flex justify-around">
         <div className="flex   gap-3 text-gray-500 ">
           {NavbarItems.map((item, index) => (
-            <p className="cursor-pointer" key={index}>
+            <p className="cursor-pointer " key={index}>
               {item}
             </p>
           ))}
