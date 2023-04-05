@@ -3,8 +3,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="w-full  border-b-2 h-[100px] flex flex-col justify-center ">
-      <div className="max-w-[1650px] w-full flex justify-between  mx-auto  items-center">
+    <div className="w-full mb-[30px] border-b-2 h-[100px] flex flex-col justify-center ">
+      <div className=" w-full flex justify-between  items-center">
         <h2 className="cursor-pointer text-[30px] text-[red] font-bold md:text-[35px]">
           Digiti
         </h2>
