@@ -3,6 +3,7 @@ import {
   FwSwiper,
   ProductSwiper,
   Sugesstion,
+  SpeackerSug,
 } from "@/components";
 import Head from "next/head";
 import { SugesstionItems, SwiperItems } from "@/Datas";
@@ -17,16 +18,17 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
+      <div className="flex flex-col gap-[40px]">
         <FwSwiper swiperItems={SwiperItems} />
 
-        <div className="mt-[30px]  w-full flex flex-wrap justify-center gap-[10]  ">
+        <div className="w-full flex flex-wrap justify-center gap-[10]  ">
           {Categories.map((category) => (
             <CategoryItem category={category} />
           ))}
         </div>
         <ProductSwiper />
         <Sugesstion sugesstionItems={SugesstionItems} />
+        <SpeackerSug />
       </div>
     </>
   );

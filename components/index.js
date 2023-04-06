@@ -6,3 +6,4 @@ export { default as Product } from "./Product";
 export { default as CategoryItem } from "./CategoryItem";
 export { default as ProductSwiper } from "./ProductSwiper";
 export { default as Sugesstion } from "./Sugesstion";
+export { default as SpeackerSug } from "./SpeackerSug";

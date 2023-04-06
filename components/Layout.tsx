@@ -3,10 +3,12 @@ import { Navbar, Footer } from "@/components";
 
 const Layout = ({ children }: any) => {
   return (
-    <div className="max-w-[1650px] w-full mx-auto  ">
+    <div className="max-w-[2000px] w-full mx-auto">
       <Navbar />
-      <div className="max-w-[1650px] w-full mx-auto ">
-        <div>{children}</div>
+      <div className="max-w-[1650px] w-full mx-auto  ">
+        <div className="max-w-[1650px] w-full mx-auto ">
+          <div>{children}</div>
+        </div>
       </div>
       <Footer />
     </div>

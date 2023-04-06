@@ -19,6 +19,12 @@ import {
   SwiperItem3,
   SwiperItem4,
 } from "./public/swiperSection";
+import {
+  Speacker_1,
+  Speacker_2,
+  Speacker_3,
+  Speacker_4,
+} from "./public/speackerSug";
 
 export const NavbarItems: string[] = [
   "لوازم دیجیتال",
@@ -57,3 +63,4 @@ export const SugesstionItems = [
   SugesstionItem2,
   SugesstionItem4,
 ];
+export const SpeackerSugs = [Speacker_1, Speacker_2, Speacker_3, Speacker_4];

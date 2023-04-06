@@ -11,19 +11,19 @@ import { Pagination } from "swiper";
 
 const ProductSwiper = () => {
   return (
-    <div className="mt-[100px]">
+    <div className="mt-[40px]">
       <Swiper
-        slidesPerView={5}
+        slidesPerView={6}
         spaceBetween={2}
         centeredSlides={true}
         pagination={{
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper bg-red-500 rounded-md "
+        className="mySwiper bg-orange-300 rounded-md   "
       >
         {offerProducts.map((item) => (
-          <SwiperSlide className="bg-red-500">
+          <SwiperSlide className="bg-orange-300 ">
             <ProductOffer product={item} />
           </SwiperSlide>
         ))}

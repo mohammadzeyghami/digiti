@@ -4,7 +4,7 @@ import Image from "next/image";
 const CategoryItem = ({ category }: any) => {
   const { image, title } = category;
   return (
-    <div className="xl:h-[300px] mx-[40px] xl:w-[230px] h-[250px] w-[200px]  bg-red-400 rounded-md flex  flex-col p-[8px] mt-[50px]">
+    <div className="xl:h-[300px] mx-[40px] xl:w-[230px] h-[250px] w-[200px]  bg-red-500 rounded-md flex  flex-col p-[8px] mt-[50px] cursor-pointer">
       <Image
         className="rounded-md w-full h-[80%] object-cover"
         src={image}
@@ -13,9 +13,9 @@ const CategoryItem = ({ category }: any) => {
         alt="productImage"
       />
       <div className="flex flex-col">
-        <button className="text-center w-[70%] mx-auto py-[5px] mt-[20px] font-bold bg-white rounded-lg ">
+        <h3 className="text-center w-[70%] mx-auto py-[1px] mt-[25px] font-bold  ">
           {title}
-        </button>
+        </h3>
       </div>
     </div>
   );
