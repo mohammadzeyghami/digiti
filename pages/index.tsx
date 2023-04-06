@@ -1,6 +1,11 @@
-import { CategoryItem, FwSwiper, ProductSwiper } from "@/components";
+import {
+  CategoryItem,
+  FwSwiper,
+  ProductSwiper,
+  Sugesstion,
+} from "@/components";
 import Head from "next/head";
-import { SwiperItems } from "@/Datas";
+import { SugesstionItems, SwiperItems } from "@/Datas";
 import { Categories } from "@/Datas";
 
 export default function Home() {
@@ -21,6 +26,7 @@ export default function Home() {
           ))}
         </div>
         <ProductSwiper />
+        <Sugesstion sugesstionItems={SugesstionItems} />
       </div>
     </>
   );
