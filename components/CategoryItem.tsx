@@ -4,7 +4,7 @@ import Image from "next/image";
 const CategoryItem = ({ category }: any) => {
   const { image, title } = category;
   return (
-    <div className="h-[300px] mx-[60px] w-[260px] bg-red-400 rounded-md flex flex-col p-[8px]">
+    <div className="xl:h-[300px] mx-[40px] xl:w-[230px] h-[250px] w-[200px]  bg-red-400 rounded-md flex  flex-col p-[8px] mt-[50px]">
       <Image
         className="rounded-md w-full h-[80%] object-cover"
         src={image}

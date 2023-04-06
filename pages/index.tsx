@@ -1,4 +1,4 @@
-import { CategoryItem, FwSwiper, Product } from "@/components";
+import { CategoryItem, FwSwiper, ProductSwiper } from "@/components";
 import Head from "next/head";
 import { SwiperItems } from "@/Datas";
 import { Categories } from "@/Datas";
@@ -15,11 +15,12 @@ export default function Home() {
       <div>
         <FwSwiper swiperItems={SwiperItems} />
 
-        <div className="mt-[30px] mx-auto w-[1500px] flex ">
+        <div className="mt-[30px]  w-full flex flex-wrap justify-center gap-[10]  ">
           {Categories.map((category) => (
             <CategoryItem category={category} />
           ))}
         </div>
+        <ProductSwiper />
       </div>
     </>
   );
