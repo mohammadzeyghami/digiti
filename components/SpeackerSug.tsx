@@ -12,7 +12,7 @@ import { SpeackerSugs } from "@/Datas";
 
 const SpeackerSug = () => {
   return (
-    <div className="w-full  flex flex-col mt-[20px]  p-[20px] border-2 ">
+    <div className="w-full  flex flex-col mt-[20px]  p-[20px] border-2 curso ">
       <div className="flex items-center mb-[12px] text-[red]">
         <AiFillFire size={25} />
         <h3 className="text-[22px] font-bold   ">تابستون رو نمیخوای بکوبی ؟</h3>

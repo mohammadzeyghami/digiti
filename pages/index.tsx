@@ -1,13 +1,12 @@
 import {
-  CategoryItem,
   FwSwiper,
   ProductSwiper,
   Sugesstion,
   SpeackerSug,
+  Category,
 } from "@/components";
 import Head from "next/head";
-import { SugesstionItems, SwiperItems } from "@/Datas";
-import { Categories } from "@/Datas";
+import { SugesstionItems, SwiperItems, Categories } from "@/Datas";
 
 export default function Home() {
   return (
@@ -21,9 +20,9 @@ export default function Home() {
       <div className="flex flex-col gap-[40px]">
         <FwSwiper swiperItems={SwiperItems} />
 
-        <div className="w-full flex flex-wrap justify-center gap-[10]  ">
-          {Categories.map((category) => (
-            <CategoryItem category={category} />
+        <div className="flex flex-wrap w-full justify-center">
+          {Categories.map((category, index) => (
+            <Category key={index} category={category} />
           ))}
         </div>
         <ProductSwiper />

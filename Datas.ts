@@ -1,4 +1,5 @@
 import { ImgHTMLAttributes } from "react";
+import { StaticImageData } from "next/image";
 import {
   SugesstionItem1,
   SugesstionItem2,
@@ -25,6 +26,14 @@ import {
   Speacker_3,
   Speacker_4,
 } from "./public/speackerSug";
+import {
+  Category_1,
+  Category_2,
+  Category_3,
+  Category_4,
+  Category_5,
+  Category_6,
+} from "./public/Category";
 
 export const NavbarItems: string[] = [
   "لوازم دیجیتال",
@@ -41,11 +50,13 @@ export const SwiperItems: any = [
   SwiperItem3,
   SwiperItem4,
 ];
-export const Categories: { image: any; title: string }[] = [
-  { image: ps1, title: "پلی استیشن" },
-  { image: iphone_1, title: "ایفون" },
-  { image: xbox1, title: "ایکس باکس" },
-  { image: sam1, title: "سامسونگ" },
+export const Categories: { image: StaticImageData; title: string }[] = [
+  { image: Category_1, title: "پلی استیشن" },
+  { image: Category_2, title: "ایفون" },
+  { image: Category_3, title: "ایکس باکس" },
+  { image: Category_4, title: "سامسونگ" },
+  { image: Category_5, title: "سامسونگ" },
+  { image: Category_6, title: "سامسونگ" },
 ];
 
 export const offerProducts = [
@@ -54,7 +65,7 @@ export const offerProducts = [
   { image: ps1, title: "پی اس 4", price: "400$", offer: "375$" },
   { image: iphone_2, title: "ایفون 12 ", price: "700$", offer: "685$" },
   { image: iphone_3, title: "ایفون 13", price: "900$", offer: "875$" },
-  { image: xbox1, title: "ایکس باکس 1 ", price: "400$", offer: "380$" },
+  { image: xbox1, title: "xbox1", price: "400$", offer: "380$" },
 ];
 
 export const SugesstionItems = [
