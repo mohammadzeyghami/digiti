@@ -9,3 +9,4 @@ export { default as Sugesstion } from "./Sugesstion";
 export { default as SpeackerSug } from "./SpeackerSug";
 export { default as BestSells } from "./BestSells";
 export { default as BSProduct } from "./BSProduct";
+export { default as CategoryBanner } from "./CategoryBanner";

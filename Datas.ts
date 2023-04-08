@@ -35,6 +35,13 @@ import {
   Category_6,
 } from "./public/Category";
 
+import {
+  banner_1,
+  banner_2,
+  banner_3,
+  banner_4,
+} from "./public/CategoryBanners/Digital";
+
 export const NavbarItems: string[] = [
   "لوازم دیجیتال",
   "خانه و اشپزخانه",
@@ -82,4 +89,11 @@ export const BSProducts = [
   { image: iphone_1, title: "ایفون 11", price: "600$" },
   { image: iphone_1, title: "ایفون 11", price: "600$" },
   { image: iphone_1, title: "ایفون 11", price: "600$" },
+];
+
+export const CategoryBannersData = [
+  { image: banner_1 },
+  { image: banner_2 },
+  { image: banner_3 },
+  { image: banner_4 },
 ];
