@@ -1,12 +1,7 @@
 import React from "react";
 import Image, { StaticImageData } from "next/image";
 
-interface CategoryProps {
-  image: StaticImageData;
-  title: string;
-}
-
-const Category = ({ category }: CategoryProps) => {
+const Category = ({ category }) => {
   return (
     <div className="flex flex-col mx-[10px] cursor-pointer">
       <Image
