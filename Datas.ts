@@ -75,3 +75,11 @@ export const SugesstionItems = [
   SugesstionItem4,
 ];
 export const SpeackerSugs = [Speacker_1, Speacker_2, Speacker_3, Speacker_4];
+
+export const BSProducts = [
+  { image: iphone_1, title: "ایفون 11", price: "600$" },
+  { image: iphone_1, title: "ایفون 11", price: "600$" },
+  { image: iphone_1, title: "ایفون 11", price: "600$" },
+  { image: iphone_1, title: "ایفون 11", price: "600$" },
+  { image: iphone_1, title: "ایفون 11", price: "600$" },
+];
