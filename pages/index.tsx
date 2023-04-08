@@ -22,7 +22,7 @@ export default function Home() {
 
         <div className="flex flex-wrap w-full justify-center">
           {Categories.map((category, index) => (
-            <Category key={index} category={category} />
+            <Category key={index} category={category} bigSize={true} />
           ))}
         </div>
         <ProductSwiper />

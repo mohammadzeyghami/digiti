@@ -1,6 +1,11 @@
 import React from "react";
-import { FwSwiper, BestSells, CategoryBanner } from "@/components/";
-import { SwiperItems, CategoryBannersData } from "@/Datas";
+import { AiFillStar } from "react-icons/ai";
+import { FwSwiper, BestSells, CategoryBanner, Category } from "@/components/";
+import {
+  SwiperItems,
+  CategoryBannersData,
+  SugestionProductSection,
+} from "@/Datas";
 const index = () => {
   return (
     <div>
@@ -11,6 +16,17 @@ const index = () => {
           {CategoryBannersData.map((image, index) => (
             <CategoryBanner key={index} image={image} />
           ))}
+        </div>
+        <div className="flex justify-center w-full items-center flex-col">
+          <div className="flex items-center mb-[70px]">
+            <h2 className=" font-bold text-[32px]">محصولات پیشنهادی</h2>{" "}
+            <AiFillStar size={30} />
+          </div>
+          <div className=" flex mx-[50px] flex-wrap justify-center max-w-[1250px] gap-[50px] border-2 ">
+            {SugestionProductSection.map((item, index) => (
+              <Category key={index} category={item} bigSize={false} />
+            ))}
+          </div>
         </div>
       </div>
     </div>

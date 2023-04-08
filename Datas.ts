@@ -97,3 +97,108 @@ export const CategoryBannersData = [
   { image: banner_3 },
   { image: banner_4 },
 ];
+
+export const SugestionProductSection = [
+  { image: iphone_1, title: "ایفون 11", price: "600$" },
+  { image: iphone_1, title: "ایفون 11", price: "600$" },
+  { image: iphone_1, title: "ایفون 11", price: "600$" },
+  { image: iphone_1, title: "ایفون 11", price: "600$" },
+  { image: iphone_1, title: "ایفون 11", price: "600$" },
+  { image: iphone_1, title: "ایفون 11", price: "600$" },
+  { image: iphone_1, title: "ایفون 11", price: "600$" },
+  { image: iphone_1, title: "ایفون 11", price: "600$" },
+  { image: iphone_1, title: "ایفون 11", price: "600$" },
+  { image: iphone_1, title: "ایفون 11", price: "600$" },
+];
+
+export const CategoryPageDatas = {
+  products: [
+    {
+      name: "digital",
+      items: [
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+      ],
+    },
+    {
+      name: "clothing",
+      items: [
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+      ],
+    },
+    {
+      name: "Kitchen appliances",
+      items: [
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+      ],
+    },
+    {
+      name: "foods",
+      items: [
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+      ],
+    },
+    {
+      name: "NativeProducts",
+      items: [
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+      ],
+    },
+    {
+      name: "phones",
+      items: [
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+        { image: iphone_1, title: "ایفون 11", price: "600$" },
+      ],
+    },
+  ],
+  SugestionProductSection: {
+    digital: [],
+    phones: [],
+    NativeProducts: [],
+    clothing: [],
+    foods: [],
+  },
+  sectionSwiper: {
+    digital: [],
+    phones: [],
+    NativeProducts: [],
+    clothing: [],
+    foods: [],
+  },
+  ProductSwiper: {
+    digital: [],
+    phones: [],
+    NativeProducts: [],
+    clothing: [],
+    foods: [],
+  },
+};
