@@ -14,7 +14,7 @@ const index = () => {
       <div className="flex w-full">
         <div className="flex flex-col">
           <div className="w-[500px] h-[500px] bg-black"></div>
-          <div className="flex gap-10">
+          <div className="flex gap-10 mt-[20px]">
             {" "}
             <div className="w-[80px] h-[80px] bg-[yellow]"></div>
             <div className="w-[80px] h-[80px] bg-[yellow]"></div>
@@ -42,7 +42,7 @@ const index = () => {
             </p>
           </div>
         </div>
-        <div className="border-2 flex flex-col p-2 w-[350px]">
+        <div className="border-2 flex flex-col h-[500px] p-2 w-[350px] bg-gray-100">
           <div className="flex items-center justify-between  ">
             <h3>فروشنده</h3>
 
@@ -55,7 +55,7 @@ const index = () => {
               <p className="text-blue-500 text-[14px]"> رسمی</p>
             </div>
           </div>
-          <div className=" flex w-full justify-center items-center  mt-[10px] ">
+          <div className=" flex w-full justify-center items-center  mt-[20px] ">
             <span className="text-green-600 ml-[5px] ">88%</span> رضایت از کالا
             | {"  "}
             عملکرد
@@ -80,13 +80,25 @@ const index = () => {
               </h4>
             </div>
           </div>
-          <div className="flex items-center mt-[20px] gap-[20px]">
+          <div className="flex items-center mt-[20px] gap-[20px] ">
             <div className="w-[5px] mr-[5px] h-[5px] bg-blue-400 rounded-full "></div>
-            <div className="flex items-center gap-[10px] ">
+            <div className="flex items-center gap-[10px]  ">
               <GiCardboardBoxClosed size={18} className="text-gray-500" />
-              <h4 className="text-[14px]  text-gray-500">ارسال توسط فروشنده</h4>
+              <h4 className="text-[14px]  text-gray-500 ">
+                ارسال توسط فروشنده
+              </h4>
             </div>
           </div>
+
+          <div className="flex justify-between items-center mt-[100px]">
+            <p>قیمت فروشنده</p>
+            <h3>$2950</h3>
+          </div>
+
+          <button className="bg-red-500 w-full h-[50px] flex justify-center mt-auto rounded-md font-bold text-white items-center">
+            {" "}
+            افزودن به سبد
+          </button>
         </div>
       </div>
     </div>
