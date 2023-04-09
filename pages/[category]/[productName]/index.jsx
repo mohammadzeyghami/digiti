@@ -6,6 +6,7 @@ import {
   AiOutlineCheckCircle,
 } from "react-icons/ai";
 import { TbHomeQuestion } from "react-icons/tb";
+import { GiCardboardBoxClosed } from "react-icons/gi";
 
 const index = () => {
   return (
@@ -69,6 +70,22 @@ const index = () => {
           <div className="flex items-center gap-[20px] mt-[20px] font-semibold">
             <AiOutlineCheckCircle />
             <p> موجود در انبار و فروشگاه دیجیتی </p>
+          </div>
+          <div className="flex items-center mt-[20px] gap-[20px]">
+            <div className="w-[5px] mr-[5px] h-[5px] bg-blue-400 rounded-full"></div>
+            <div className="flex items-center gap-[10px] ">
+              <GiCardboardBoxClosed size={18} className="text-gray-500" />
+              <h4 className="text-[14px] text-gray-500">
+                باربری توسط دیجیتی از امروز
+              </h4>
+            </div>
+          </div>
+          <div className="flex items-center mt-[20px] gap-[20px]">
+            <div className="w-[5px] mr-[5px] h-[5px] bg-blue-400 rounded-full "></div>
+            <div className="flex items-center gap-[10px] ">
+              <GiCardboardBoxClosed size={18} className="text-gray-500" />
+              <h4 className="text-[14px]  text-gray-500">ارسال توسط فروشنده</h4>
+            </div>
           </div>
         </div>
       </div>
