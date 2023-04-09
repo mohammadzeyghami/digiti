@@ -1,6 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import { AiFillStar } from "react-icons/ai";
+import {
+  AiFillStar,
+  AiOutlineSafety,
+  AiOutlineCheckCircle,
+} from "react-icons/ai";
 import { TbHomeQuestion } from "react-icons/tb";
 
 const index = () => {
@@ -38,24 +42,33 @@ const index = () => {
           </div>
         </div>
         <div className="border-2 flex flex-col p-2 w-[350px]">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between  ">
             <h3>فروشنده</h3>
 
             <p className="text-blue-400">5 فروشنده دیگر</p>
           </div>
-          <div className="flex items-center gap-[10px]">
+          <div className="flex items-center gap-[10px] mt-[10px]">
             <TbHomeQuestion size={25} />
             <p className="">فروشنده</p>
             <div className=" bg-blue-300 px-[5px] rounded-lg">
               <p className="text-blue-500 text-[14px]"> رسمی</p>
             </div>
           </div>
-          <div className=" flex w-full justify-center items-center ">
+          <div className=" flex w-full justify-center items-center  mt-[10px] ">
             <span className="text-green-600 ml-[5px] ">88%</span> رضایت از کالا
             | {"  "}
             عملکرد
             {"  "}
             <span className="text-green-600 mr-[5px]">خیلی خوب</span>
+          </div>
+          <div className="flex gap-[20px] mt-[20px] ">
+            <AiOutlineSafety size={20} className="" />
+            <p className="text-green-600 font-bold">18 ماه گارانتی</p>
+          </div>
+
+          <div className="flex items-center gap-[20px] mt-[20px] font-semibold">
+            <AiOutlineCheckCircle />
+            <p> موجود در انبار و فروشگاه دیجیتی </p>
           </div>
         </div>
       </div>
