@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { AiFillStar } from "react-icons/ai";
+import { TbHomeQuestion } from "react-icons/tb";
 
 const index = () => {
   return (
@@ -36,7 +37,27 @@ const index = () => {
             </p>
           </div>
         </div>
-        <div></div>{" "}
+        <div className="border-2 flex flex-col p-2 w-[350px]">
+          <div className="flex items-center justify-between">
+            <h3>فروشنده</h3>
+
+            <p className="text-blue-400">5 فروشنده دیگر</p>
+          </div>
+          <div className="flex items-center gap-[10px]">
+            <TbHomeQuestion size={25} />
+            <p className="">فروشنده</p>
+            <div className=" bg-blue-300 px-[5px] rounded-lg">
+              <p className="text-blue-500 text-[14px]"> رسمی</p>
+            </div>
+          </div>
+          <div className=" flex w-full justify-center items-center ">
+            <span className="text-green-600 ml-[5px] ">88%</span> رضایت از کالا
+            | {"  "}
+            عملکرد
+            {"  "}
+            <span className="text-green-600 mr-[5px]">خیلی خوب</span>
+          </div>
+        </div>
       </div>
     </div>
   );
