@@ -1,4 +1,3 @@
-import { ImgHTMLAttributes } from "react";
 import { StaticImageData } from "next/image";
 import {
   SugesstionItem1,
