@@ -13,17 +13,16 @@ const ProductSwiper = () => {
   return (
     <div className="mt-[40px]">
       <Swiper
-        slidesPerView={6}
-        spaceBetween={2}
-        centeredSlides={true}
+        slidesPerView={"auto"}
+        spaceBetween={30}
         pagination={{
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper bg-orange-300 rounded-md   "
+        className="mySwiper"
       >
         {offerProducts.map((item) => (
-          <SwiperSlide className="bg-orange-300 ">
+          <SwiperSlide>
             <ProductOffer product={item} />
           </SwiperSlide>
         ))}
@@ -33,3 +32,4 @@ const ProductSwiper = () => {
 };
 
 export default ProductSwiper;
+//<ProductOffer product={item} />

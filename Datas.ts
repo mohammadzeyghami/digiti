@@ -50,7 +50,7 @@ export const NavbarItems: string[] = [
 ];
 
 export const aboutUs: string[] = ["درباره ی من ", "ارتباط با من ", "اخبار"];
-export const SwiperItems: any = [
+export const SwiperItems: StaticImageData[] = [
   SwiperItem1,
   SwiperItem2,
   SwiperItem3,

@@ -3,7 +3,7 @@ import Image from "next/image";
 const ProductOffer = ({ product }: any) => {
   const { image, title, text, price, offer } = product;
   return (
-    <div className="xl:h-[300px] xl:w-[230px] xl:object-cover m-[10px]    ml-0 bg-white rounded-md flex flex-col p-[8px]">
+    <div className="h-[350px] w-[280px] xl:object-cover p-[50px] ml-0 bg-white rounded-md flex flex-col ">
       <Image
         className="rounded-md w-full h-[60%] "
         src={image}

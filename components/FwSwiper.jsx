@@ -15,21 +15,18 @@ const FwSwiper = ({ swiperItems }) => {
     <>
       <Swiper
         slidesPerView={1}
-        autoplay={{
-          delay: 4000,
-          disableOnInteraction: false,
-        }}
         spaceBetween={30}
         loop={true}
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination, Navigation, Autoplay]}
-        className="mySwiper h-[550px]"
+        navigation={true}
+        modules={[Pagination, Navigation]}
+        className="mySwiper "
       >
         {swiperItems.map((item) => (
           <SwiperSlide>
-            <Image src={item} alt="" />
+            <Image src={item} className="h-[400px] object-cover" />
           </SwiperSlide>
         ))}
       </Swiper>
