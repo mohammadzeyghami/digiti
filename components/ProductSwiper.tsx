@@ -13,7 +13,7 @@ const ProductSwiper = () => {
   return (
     <div className="mt-[40px]">
       <Swiper
-        slidesPerView={"auto"}
+        slidesPerView={3}
         spaceBetween={30}
         pagination={{
           clickable: true,

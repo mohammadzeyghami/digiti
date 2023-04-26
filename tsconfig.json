@@ -24,7 +24,7 @@
     "**/*.tsx",
     "components/Product.jsx",
     "components/Swiper.tsx",
-    "components/Category.jsx"
+    "components/Category.tsx"
   ],
   "exclude": ["node_modules"]
 }
